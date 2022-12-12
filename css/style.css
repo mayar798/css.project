@@ -1,0 +1,511 @@
+*{
+    padding: 0px;
+    margin: 0px;
+box-sizing: border-box;
+}
+@font-face {
+    font-family: "oswald";
+    src: url(../fonts/Oswald/Oswald-VariableFont_wght.ttf );
+}
+@font-face {
+    font-family: "opensans";
+    src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+.c1{
+    clear: both;
+    content:"";
+}
+
+nav{
+    background-color: black;
+    padding: 0px 5px;
+}
+nav a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+   display: inline-block;
+   padding:10px 15px;
+   border: none;
+}
+nav a:hover{
+    background:#ccc ;
+    color:black;
+
+}
+.lasticon{
+    float: right;
+}
+
+
+  
+/* begin of text section*/
+.textsection{
+    text-align: center;
+    padding: 50px 0px;
+}
+.textsection p h1 span{
+    font-family: "oswald";
+}
+
+.textsection h1{
+    text-align: center;
+    font-family: "oswald";
+    font-size: 45px;
+    font-weight: 900;
+}
+.textsection p{
+    padding: 20px 0px;
+    font-family: "oswald";
+    font-size: 16px;
+}
+.textsection p span{
+    font-family:"oswald";
+    background-color: black;
+    color: white;
+    padding: 0px 5px;
+    font-size: 16px;
+
+}
+
+/*begin of header*/
+header{
+    position: relative;
+}
+header section{
+    position: absolute;
+    top: 40%;
+    left: 50px;
+    color: white;
+    text-align: left;
+}
+header section h1{
+    font-size: 60px;
+    letter-spacing: 3px;
+    padding: 20px 0px;
+    font-family: "oswald";
+    
+    
+}
+header section h3{
+    font-size: 33px;
+    letter-spacing: 5px;
+    font-family: "oswald";
+
+}
+header section button{
+ background-color: rgba(160,160,160,0.7);
+border: none;
+font-weight: bold;
+padding: 20px;
+font-family: "oswald";
+line-height: 16px;
+letter-spacing: 1px;
+font-size: medium;
+
+
+}
+  header section button:hover{
+background-color: rgba(160,160,160,0.9);
+}
+
+/*begin of main*/
+ 
+.c1{
+    clear: both;
+    content: "";
+}
+
+
+main{
+    overflow: auto;
+    height: auto;
+    background-color:#f1f1f1;
+    margin-top: -5px;
+
+}
+main #leftside{
+
+    display: inline-block;
+    float: left;
+    width: 70%;
+    background-color: #f1f1f1;
+    padding: 20px;
+
+
+    }
+    main #leftside article{
+        padding: 20px;
+        background-color: white;
+        margin: 20px 0px;
+
+
+    }
+    main #leftside article h2{
+        text-align: center;
+        font-family: "oswald";
+
+        
+    }
+    main #leftside article .phr{
+        text-align: center;
+        padding: 20px 0px;
+        font-family: "oswald";
+
+    }
+    main #leftside article .phr span{
+        color: gray;
+
+    }
+    
+main #leftside .article .pb{
+ font-family: "opensans";
+    text-align: justify;
+    font-size: 16px;
+
+}
+main #leftside .article .pb span{
+    font-weight: bold;
+    color: black;
+    text-align: justify;
+
+}
+main #leftside .article .like1{
+float: left;
+padding: 10px 15px;
+color: black;
+background-color: white;
+font-weight: bold;
+border: 1px solid lightgray;
+
+
+}
+main #leftside article .button2 .like1:hover{
+background-color: gray;
+border-color: gray;
+}
+main #leftside article .button2 .Rep1{
+    float: right;
+    background-color: black;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    }
+    
+
+
+    main #leftside article .button2 .Rep1 span{
+        background-color: white;
+        color: black;
+        padding: 0px 5px;
+        border:none
+
+   }
+   main #leftside article .button2 .Rep1:hover{
+    background-color: lightgray;
+    color: black;
+}
+main #leftside article .footer2{
+padding: 20px 0px;
+}
+main #leftside article .win{
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+}
+main #leftside article .footer2 .imge{
+    float: left;
+    width: 10%;
+    display: inline-block;
+
+}
+
+main #leftside article .footer2 .textd{
+    float: right;
+    width: 90%;
+    display: inline-block;
+    padding-left: 25px;
+}   
+main #leftside article .footer2 .textd span {
+    color: gray;
+    font-family: "oswald" , sans-serif;
+    margin:10px 0px;
+}
+
+main #leftside article .footer2 .textd p{
+    color: black;
+    text-align: left;
+    padding: 10px 20px;
+    font-family: "oswald";
+
+}
+
+/*begin of rightside*/
+
+
+main #rightside{
+    float: right;
+    width: 30%;
+    padding: 20px;
+    display: inline-block;
+    background-color:#f1f1f1;
+    
+}
+main #rightside #avatargirl{
+    padding: 20px 2px;
+   
+}
+main #rightside #avatargirl div{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin-top: -10px;
+    font-family: "opensans";
+    font-size: 15px;
+
+
+}
+main #rightside #avatargirl div p{
+    padding-bottom: 15px;
+}
+
+main #rightside article{
+margin-bottom: 20px;
+}
+main #rightside article .articleheading{
+    background-color:black;
+    color: white;
+    padding: 20px;
+    font-family:"opensans";
+    font-weight: 100px;    
+    
+}
+main #rightside article .articlebody {
+background-color:white;
+height: auto;
+overflow: auto;
+
+
+}
+
+
+main #rightside article .b1 .articledes .imgdes {
+    float: left;
+    width: 15%;
+    padding: 10px;
+
+
+}
+ main #rightside article .b1 .articledes .textdes {
+
+    width: 85%;
+    padding: 0px 20px;
+    font-family: "opensans";
+    
+     }
+ main #rightside article .b1 .articledes:hover{
+        background-color: #ccc;
+
+     }
+     .c1{
+        clear: both;
+        content: "";
+     }
+
+
+      main #rightside article .b2{
+        padding: 20px;
+      }
+      main #rightside article .b2 p{
+        text-align: center;
+        padding:50px;
+        background-color: #f1f1f1;
+      }
+      main #rightside article .b3 {
+     padding: 20px;
+      }
+
+      main #rightside article .b3 span{
+      background-color: #ccc;
+      margin: 10px 5px;
+      display: inline-block;
+      padding: 0px 5px;
+      font-family: "opensans";
+      font-size: 13px;
+      
+      }
+      main #rightside article .b3 .fspan{
+        background-color: black;
+        color: white;
+        font-family: "oswald";
+        font-size: 15px;
+    
+      }
+
+      main #rightside article .b4{
+        padding: 10px;
+      }
+
+      main #rightside article .b4 img{
+        display: inline-block;
+        padding: 5px;
+      }
+      main #rightside article .b5{
+        padding: 20px;
+        font-size: 25px;
+      }
+      main #rightside article .b5 i{
+
+      }
+      main #rightside article .b5 i:hover{
+        color: gray;
+      }
+    
+      main #rightside article .b6{
+       padding: 20px;
+      }
+      main #rightside article .b6 form{
+
+      }
+      main #rightside article .b6 form label{
+        display: block;
+        width: 100%;
+        font-family: "opensans";
+        font-size: small;
+        font-weight: 500px;
+      }
+
+      main #rightside article .b6 form input{
+        display: block;
+        width: 100%;
+        margin: 15px 0px;
+        padding: 10px;
+ 
+      }
+      main #rightside article .b6 form button{
+      background-color: #f44336;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      color: white;
+      border: none;
+      width: 100%;
+      display: block;
+
+      }
+
+.c1{
+    clear: both;
+    content: "";
+}
+
+
+
+
+/*begin of footer*/
+  footer button i{
+    padding: 0px 10px;
+  } 
+
+footer{
+background-color: #616161;
+color: white;
+padding:  35px;
+padding-bottom: 40px;
+}
+footer button{
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+}
+footer button:hover{
+background-color: silver;
+color: black;
+
+}
+
+footer p{
+    padding: 20px 0px;
+    
+}
+footer p a{
+    color: white;
+
+}
+
+.subscribe{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(160, 160, 160, .6);
+    top: 300px;
+    display: none;
+
+    
+}
+.subscribebutton{
+    position: relative;
+    background-color: white;
+    padding: 30px;
+    width: 60%;
+    margin: 150px auto;
+}
+.subscribebutton h2, .subscribebutton form, .subscribebutton label, .subscribebutton input,.subscribebutton .submit{
+    display: block;
+    width: 100%;
+}
+.subscribebutton .submit{
+    background-color: #f44336;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      color: white;
+      border: none;
+      width: 100%;
+      display: block;
+}
+.subscribebutton input{
+margin: 20px;
+padding: 10px 0px;
+}
+.exit{
+    background-color: white;
+    position: absolute;
+    padding: 5px 10px;
+    top: 30px;
+    right: 30px;
+    font-size: 26px;
+    border: none;
+}
+.exit:hover{
+    background-color: #ccc;
+}
+
+@media screen and (max-width : 900px){
+
+header section{
+    top: 20%;
+}
+header section h1{
+    font-size: 40px;
+}
+header section h3{
+font-size: 30px;
+}
+main #leftside{
+
+    display:block;
+    float: none;
+    width: 100%;
+
+    }
+    main #rightside{
+
+        display:block;
+        float: none;
+        width: 100%;
+    
+        }
+
+}
